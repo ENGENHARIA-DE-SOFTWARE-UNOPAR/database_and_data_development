@@ -1,4 +1,4 @@
-<h1>Relatórios da aula prática da diciplina de desenvolvimento de banco de dados </h1>
+<h1>Relatórios da aula prática da disciplina de desenvolvimento de banco de dados </h1>
 
 
 <h5> Softwares usuais: </h5><p>
