@@ -10,3 +10,9 @@ version: 0.1
 
 date-released: 2023-10-18
 url: "https://github.com/OgliariNatan/database_and_data_development"
+
+contact:
+    -  email: natanogliari@gmail.com
+      name: "Project"
+license:
+  - MIT
