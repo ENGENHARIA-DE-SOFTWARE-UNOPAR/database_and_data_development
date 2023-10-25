@@ -7,6 +7,10 @@
 - [Relatório Final](https://github.com/OgliariNatan/database_and_data_development/blob/main/main.pdf)
 
 
+### Modelo decorrer
+
+- ![dqsad](figure/diagram_EER.png)
+
 <h5> Softwares usuais: </h5><p>
 
 <a href="https://atom.io/">Atom</a> <br/>
