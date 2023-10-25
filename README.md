@@ -9,7 +9,7 @@
 
 ### Modelo DER
 
-- ![Modelo DER](figure/diagram_EER.png)
+![Modelo DER](figure/diagram_EER.png)
 
 <h5> Softwares usuais: </h5><p>
 
