@@ -7,9 +7,9 @@
 - [Relatório Final](https://github.com/OgliariNatan/database_and_data_development/blob/main/main.pdf)
 
 
-### Modelo decorrer
+### Modelo DER
 
-- ![dqsad](figure/diagram_EER.png)
+- ![Modelo DER](figure/diagram_EER.png)
 
 <h5> Softwares usuais: </h5><p>
 
