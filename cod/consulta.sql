@@ -1,6 +1,5 @@
-USE world;
-SHOW Tables;
-SHOW COLUMNS FROM city;
-SELECT city.Name, city.population
-FROM city, contry
-where city.Name LIKE 'Sor%' AND city.CountryCode = country.Code;
+USE Loja
+CREATE VIEW `nao_pagas` AS
+	SELECT contaReceber.Situação AS "Situação"
+	FROM contaReceber
+	WHERE contaReceber.Situação = 1;
