@@ -38,7 +38,7 @@
   \item Consultar os dados armazenados por meio da criação de uma visão (\textit{View});
   \item Elaborar um relatório no final da atividade;
 \end{itemize}
-\par Na atividade proposta o relatório dispõe de alguns procedimentos para a realização da atividade. Sugere a criação de uma base de dados de uma loja com o nome do banco de \textbf{Loja}, com a utilizazão de definições de dados \textbf{DDL  \textsubscript{\ref{DDL}}} da linguagem SQL, e respeítando o modelo definido no \textbf{DER}, porposto pela atividade conforme figura \ref{fig:DER}.
+\par Na atividade proposta o relatório dispõe de alguns procedimentos para a realização da atividade. Sugere a criação de uma base de dados de uma loja com o nome do banco de \textbf{Loja\_1}, com a utilizazão de definições de dados \textbf{DDL  \textsubscript{\ref{DDL}}} da linguagem SQL, e respeítando o modelo definido no \textbf{DER}, porposto pela atividade conforme figura \ref{fig:DER}.
 
 \begin{figure}[h!]
   \caption{Diagrama entidade relacionamento}
@@ -57,12 +57,37 @@
 
 
 \par Deste modo é elaborado o \textit{scripty} inserir dados conforme lista \ref{cod:inserir}, por segurança utilizo o especificador de banco o \textit{USE Loja\_1}.
+\par Para a criação do Banco de dados \textbf{Loja\_1}, utilizei o metodo shell, utlizei o scripty\ref{cod:criacao}.
+
+\lstinputlisting[caption={Criação\_Loja\_1.sql}, label={cod:cricao}]{criacao.sql}
+
+ \begin{figure}[h!]
+ 
+ \caption{Captura de tela da criação do banco de dados.}
+ \includegraphics[width=\textwidth]{figure/fragmento.png}
+ \label{fig:fragmento}
+ {\fontsize{10pt}{\baselineskip}\selectfont
+ Fonte: O autor (2023).}
+ \end{figure}
+\par Na Figura \ref{fig:banco}, expõe a captura de tela do banco de dados criado no MySql Workbench.
+ \begin{figure}[h!]
+
+ \caption{Criação do banco de dados.}
+ \includegraphics[scale=1]{figure/banco.png}
+ \label{fig:banco}
+ {\fontsize{10pt}{\baselineskip}\selectfont
+ Fonte: O autor (2023).}
+ \end{figure}
 
 \lstinputlisting[caption={inserir.sql}, label={cod:inserir}]{inserir.sql}
 
 \par \textit{Scripty} para consulta de dados no banco de dados Loja.
 
 \lstinputlisting[caption={consulta.sql}, label={cod:consulta}]{consulta.sql}
+
+
+
+
 
 \section{Conclusões}
 
