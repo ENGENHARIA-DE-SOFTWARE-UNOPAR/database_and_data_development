@@ -1,3 +1,5 @@
+-- Scripty Consulta
+-- autor: Natan Ogliari
 SELECT ContaReceber.ID,
 cliente.Nome,
 cliente.CPF,
