@@ -49,8 +49,15 @@ CREATE TABLE IF NOT EXISTS ContaReceber(
     DataConta DATE NOT NULL,
     DataVencimento DATE NOT NULL,
     Valor DECIMAL(18,2) NOT NULL,
+    Situação ENUM('1', '2', '3') NOT NULL,
     Cliente_ID INT NOT NULL, 
     CONSTRAINT fk_ContaReceber_Cliente
     FOREIGN KEY (Cliente_ID)
     REFERENCES Cliente(ID)
 );
+
+-- Adicionando 'Situação' a tabela 'contaReceber'
+ALTER TABLE ContaReceber
+	ADD Situação ENUM('1', '2', '3') NOT NULL
+;
+ 
