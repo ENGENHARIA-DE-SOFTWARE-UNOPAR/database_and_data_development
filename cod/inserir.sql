@@ -1,4 +1,5 @@
 -- Scripty para inserir dados no banco Loja_1
+-- Autor Natan Ogliri
 USE Loja_1;
 
 -- INSERINDO VALOR NA TABELA 'estado'

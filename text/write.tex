@@ -50,7 +50,7 @@
 
 \par Uma observação importante o qual deprei no desenvolvimento desta atividade, foi que já possuia instalado o \textbf{MySQL da Workbench}, no entento, não estava configurado o SQL Server, portanto tive que configurar o mesmo.
 
-\newpage
+%\newpage
 
 \section{Método}
 \par Após a criação do projeto através do software \textbf{MySQL da Workbench}, foi proseguido com a criação do banco de bados conforme figura \ref{fig:DER}, com o estabelicimento de chaves primárias e as indicações de elementos não nulos e auto incrementais sendo quatro tabelas, em especifíco a tabela \textit{contaReceber}, possui um elemento chamdo de \textit{Situação ENUM('1', '2', '3')}, sendo: 1 - conta regitrada, 2 - conta cancelada e 3 - conta paga.
@@ -71,17 +71,17 @@
  Fonte: O autor (2023).}
  \end{figure}
 \par Na Figura \ref{fig:banco}, expõe a captura de tela do banco de dados criado no MySql Workbench.
-\newpage
+%\newpage
  \begin{figure}[h!]
  \caption{Criação do banco de dados.}
  \begin{center}
-    \includegraphics[scale=1]{figure/banco.png}
+    \includegraphics[scale=.7]{figure/banco.png}
  \end{center}
  \label{fig:banco}
  {\fontsize{10pt}{\baselineskip}\selectfont
  Fonte: O autor (2023).}
  \end{figure}
-
+\par Para inserção de dados no banco de dados foi utilizado o \textit{scripty} \autoref{cod:inserir}, conforme demonstrado abaixo.
 \lstinputlisting[caption={inserir.sql}, label={cod:inserir}]{inserir.sql}
 
 \par \textit{Scripty} para consulta de dados no banco de dados Loja\_1.
@@ -104,7 +104,8 @@ Fonte: O autor (2023).}
 
 
 \section{Conclusões}
-\par A criação de um \textit{database}, parte de princípio melhoria no gerenciamento de dados de uma organização, e a criação de scripty de manipulação é necessário devido as suas progressivas e sucessivas necessidades de alterações, adicção, remoção e atualizações.
+\par A criação de um \textit{database} ou banco de dados, parte do princípio a melhoria nos gerenciamentos de dados de uma organização, e a criação de linguagens de manipulação é necessário devido as suas progressivas e sucessivas necessidades de alterações, adicção, remoção e atualizações. Um exemplo dasta atividade de atualização do banco de dados, foi o lapso temporal do \textit{Situação ENUM(..)}, caso não possuse as manipulações, deveria criar todo o banco de dados de novo.
+\par Com a elaboração desta aula prática foi possível vislumbrar a implementação e a elaboração de um banco de dados.
   %$X \xLongleftarrow[\text{NATAN}]{\text{OGLIARI}} Y $ %COM TEXTO
 	% $\uparrow$ %Seta para Cima
 	%$\overleftarrow{NATAN}$
