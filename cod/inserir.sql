@@ -20,7 +20,7 @@ municipio (Estado_ID, Nome, CodIBGE) VALUES ( 3, 'Saracura', 2834583);
 
 -- INSERINDO VALOR NA TABELA 'cliente'
 INSERT INTO 
-cliente (Nome, CPF, Celular, EndLogradouro,EndNumero,EndMunicipio,EndCEP,Municipio_ID) VALUES ('Na9
+cliente (Nome, CPF, Celular, EndLogradouro,EndNumero,EndMunicipio,EndCEP,Municipio_ID) VALUES ('Na
 tan Ogliari', 85698753695, 23651225, 'Banhado seco', 120, 3, 89870000, 3);
 INSERT INTO 
 cliente (Nome, CPF, Celular, EndLogradouro,EndNumero,EndMunicipio,EndCEP,Municipio_ID) VALUES ('Francisco Setembrino', 89658653694, 23556225, 'Jundia', 180, 2, 89870000, 2);
